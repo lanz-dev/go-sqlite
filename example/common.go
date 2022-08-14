@@ -15,5 +15,5 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
-	db.Exec("SELECT 1")
+	_, _ = db.Exec("SELECT 1")
 }
